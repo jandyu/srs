@@ -1,0 +1,1 @@
+../../.src/libavcodec/x86/mpegvideoenc_qns_template.c

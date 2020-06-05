@@ -1,0 +1,14 @@
+prefix=/root/srs/srs/trunk/objs/Platform-Linux-4.4.0-SRS4/ffmpeg-4.2-fit/Platform-Linux-4.4.0-SRS4/_release
+exec_prefix=${prefix}
+libdir=/root/srs/srs/trunk/objs/Platform-Linux-4.4.0-SRS4/ffmpeg-4.2-fit/Platform-Linux-4.4.0-SRS4/_release/lib
+includedir=/root/srs/srs/trunk/objs/Platform-Linux-4.4.0-SRS4/ffmpeg-4.2-fit/Platform-Linux-4.4.0-SRS4/_release/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.31.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil -pthread -lm
+Libs.private: 
+Cflags: -I${includedir}

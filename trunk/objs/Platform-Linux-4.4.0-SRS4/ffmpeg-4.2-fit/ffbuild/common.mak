@@ -1,0 +1,1 @@
+../.src/ffbuild/common.mak

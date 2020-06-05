@@ -1,0 +1,1 @@
+../.src/libavdevice/alldevices.c

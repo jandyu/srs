@@ -1,0 +1,1 @@
+../../../.src/compat/atomics/gcc/stdatomic.h

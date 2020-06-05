@@ -1,0 +1,11 @@
+prefix=/root/srs/srs/trunk/objs/Platform-Linux-4.4.0-SRS4/libsrtp-2.0.0/_release
+exec_prefix=/root/srs/srs/trunk/objs/Platform-Linux-4.4.0-SRS4/libsrtp-2.0.0/_release
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsrtp2
+Version: 2.0.0
+Description: Library for SRTP (Secure Realtime Transport Protocol)
+
+Libs: -L${libdir} -lsrtp2 -lcrypto -lcrypto -lcrypto -lz -ldl 
+Cflags: -I${includedir}
